@@ -566,7 +566,7 @@ h3 {
       position: absolute;
       z-index: 3;
       bottom: -74px;
-      background-image: url("../img-for-task/RandomPhoto.png");
+      background-image: url("../img-for-task/homePage/RandomPhoto.png");
       background-position-x: center;
       background-position-y: top;
       background-repeat: no-repeat;
@@ -705,7 +705,7 @@ h3 {
       .rectanglSon {
         width: clamp(185px, calc(172.143px + 4.018vw), 230px);
         height: clamp(179.71px, calc(167.219px + 3.904vw), 223.43px);
-        background-image: url("../img-for-task/b3radSec1.png");
+        background-image: url("../img-for-task/homePage/b3radSec1.png");
         background-size: cover;
         top: 20px;
         right: 0px;
@@ -842,7 +842,7 @@ h3 {
 /* sec2 */
 .sec2 {
   height: clamp(400px, calc(328.571px + 22.321vw), 650px);
-  background-image: url("../img-for-task/sec2back.jpg");
+  background-image: url("../img-for-task/homePage/sec2back.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -862,7 +862,7 @@ h3 {
       z-index: 2;
       top: 0;
 
-      background-image: url("../img-for-task/RandomPhoto2.png");
+      background-image: url("../img-for-task/homePage/RandomPhoto2.png");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -898,7 +898,7 @@ h3 {
       z-index: 2;
       bottom: clamp(-60px, calc(-52.286px - 0.536vw), -54px);
 
-      background-image: url("../img-for-task/RandomPhoto.png");
+      background-image: url("../img-for-task/homePage/RandomPhoto.png");
       background-size: contain;
       background-position-x: center;
       background-repeat: no-repeat;
@@ -980,13 +980,13 @@ h3 {
     }
 
     .coffe {
-      background-image: url("../img-for-task/brewing-coffee.jpg");
+      background-image: url("../img-for-task/homePage/brewing-coffee.jpg");
     }
     .bakery {
-      background-image: url("../img-for-task/artisan-bakery.jpg");
+      background-image: url("../img-for-task/homePage/artisan-bakery.jpg");
     }
     .brekfast {
-      background-image: url("../img-for-task/banana-cake.jpg");
+      background-image: url("../img-for-task/homePage/banana-cake.jpg");
     }
   }
 }
@@ -1324,7 +1324,7 @@ h3 {
 /* sec 4 */
 .sec4 {
   height: clamp(400px, calc(328.571px + 22.321vw), 650px);
-  background-image: url("../img-for-task/jonathan-borba-unsplash.jpg");
+  background-image: url("../img-for-task/homePage/jonathan-borba-unsplash.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1352,7 +1352,7 @@ h3 {
       z-index: 2;
       top: 0;
 
-      background-image: url("../img-for-task/RandomPhoto2.png");
+      background-image: url("../img-for-task/homePage/RandomPhoto2.png");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -1388,7 +1388,7 @@ h3 {
       z-index: 2;
       bottom: clamp(-60px, calc(-52.286px - 0.536vw), -54px);
 
-      background-image: url("../img-for-task/RandomPhoto.png");
+      background-image: url("../img-for-task/homePage/RandomPhoto.png");
       background-size: contain;
       background-position-x: center;
       background-repeat: no-repeat;
@@ -1588,7 +1588,7 @@ h3 {
 
   .right {
     height: 400px;
-    background-image: url("../img-for-task/Photo-for-footer.jpg");
+    background-image: url("../img-for-task/homePage/Photo-for-footer.jpg");
     background-size: cover;
   }
 }
