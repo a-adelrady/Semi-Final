@@ -46,9 +46,9 @@
             <nav class="links d-flex justify-content-start align-items-center">
               <ul class="d-flex flex-wrap">
                 <a class="a1" href="./index.html">Home</a>
-                <a class="a2" href="#">Pages</a>
-                <a class="a3" href="#">Portfolio</a>
-                <a class="a4" href="#">Contact</a>
+                <a class="a2" href="./pages.html">Pages</a>
+                <a class="a3" href="./portfolio.html">Portfolio</a>
+                <a class="a4" href="./about.html">About Us</a>
               </ul>
             </nav>
             <div class="logo d-flex justify-content-start align-items-center">
@@ -112,9 +112,9 @@
                       class="p-0 m-0 d-flex flex-column justify-content-center align-items-start"
                     >
                       <a class="a1" href="./index.html">Home</a>
-                      <a class="a2" href="#">Pages</a>
-                      <a class="a3" href="#">Portfolio</a>
-                      <a class="a4" href="#">Contact</a>
+                      <a class="a2" href="./pages.html">Pages</a>
+                      <a class="a3" href="./portfolio.html">Portfolio</a>
+                      <a class="a4" href="./about.html">About Us</a>
                     </ul>
                   </nav>
                 </div>
@@ -228,7 +228,7 @@
     <section class="sec1 col-12 d-flex flex-column align-items-center">
       <div class="container px-0 m-0 position-relative">
         <div class="rectanglParant d-flex justify-content-end">
-          <div class="rectanglSon position-absolute"></div>
+          <div class="rectanglSon position-absolute scroll-move"></div>
         </div>
       </div>
       <div
@@ -247,7 +247,7 @@
           >
             <div class="endLift d-none d-md-flex animate__animated animate__fadeIn wow">
               <img src="./img-for-task/homePage/sec1Photo.jpg" alt="Coffe" />
-              <h2 class="floating-element">Delightful Experience</h2>
+              <h2 class="scroll-move">Delightful Experience</h2>
             </div>
             <div
               class="endRight d-flex flex-column justify-content-center align-items-start"
@@ -277,8 +277,8 @@
         <div
           class="secText d-flex flex-column justify-content-center align-items-center"
         >
-          <h3 class="animate__animated animate__fadeInUp wow">Tasty</h3>
-          <h1 class="animate__animated animate__zoomIn wow">Menus</h1>
+          <h3 class="animate__animated animate__fadeInUp wow scroll-move">Tasty</h3>
+          <h1 class="animate__animated animate__zoomIn wow scroll-move-bottom">Menus</h1>
         </div>
         <div class="randomPhotoBottom"></div>
       </div>
@@ -347,13 +347,13 @@
         </div>
         <div class="row position-relative animate__animated animate__fadeIn wow">
           <div class="textOne position-relative">
-            <div class="topImg">
+            <div class="topImg scroll-move">
               <img
                 src="./img-for-task/homePage/coffee-rectangel-top.png"
                 alt="Coffee Rectagel"
               />
             </div>
-            <div class="bottomImg">
+            <div class="bottomImg scroll-move">
               <img
                 src="./img-for-task/homePage/coffee-rectangel-bottom.png"
                 alt="Coffee Rectagel"
@@ -376,7 +376,7 @@
             <img src="./img-for-task/homePage/coffee-machine.jpg" alt="Coffee Machine" />
           </div>
           <div
-            class="textTow d-flex flex-column justify-content-center align-items-start floating-element wow"
+            class="textTow d-flex flex-column justify-content-center align-items-start scroll-move"
           >
             <h2>Coffee is the best thing to douse the sunrise with</h2>
             <p>
@@ -393,7 +393,7 @@
       </div>
     </section>
     <!-- sec 4 -->
-    <section class="sec4 col-12">
+    <section class="sec4 col-12 scroll-move">
       <div
         class="overlay col-12 d-flex flex-column align-items-center justify-content-center"
       >
@@ -401,8 +401,8 @@
         <div
           class="secText d-flex flex-column justify-content-center align-items-center"
         >
-          <h3 class="animate__animated animate__fadeInUp wow">Our</h3>
-          <h1 class="animate__animated animate__zoomIn wow">Shop</h1>
+          <h3 class="animate__animated animate__fadeInUp wow scroll-move">Our</h3>
+          <h1 class="animate__animated animate__zoomIn wow scroll-move-bottom">Shop</h1>
         </div>
         <div class="randomPhotoBot"></div>
       </div>
@@ -641,8 +641,9 @@
       </div>
     </div>
 
-    <!-- js file -->
-    <script src="./js-files/index.js"></script>
+    <!-- lenis cdn -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+
 
     <!-- wow -->
     <script
@@ -660,5 +661,8 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    
+    <!-- js file -->
+    <script src="./js-files/index.js"></script>
   </body>
 </html>
