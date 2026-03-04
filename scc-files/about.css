@@ -311,6 +311,7 @@ h3 {
                   height: 20px;
                   margin-right: 20px;
                   font-size: 20px;
+                  cursor: pointer;
                 }
               }
               .i3 {
@@ -422,6 +423,7 @@ h3 {
                   font-weight: 700;
                   letter-spacing: 1px;
                   line-height: 1.6;
+                  cursor: pointer;
                 }
               }
             }
@@ -1627,5 +1629,6 @@ h3 {
     color: white;
     font-size: 26px;
     font-weight: 400;
+    cursor: pointer;
   }
 }
