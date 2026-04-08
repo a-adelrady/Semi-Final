@@ -98,10 +98,6 @@ semi-final/
 └── arkipelago/         # Additional images
 ```
 
-## Screenshots
-
-*Add screenshots here to showcase the website's design and features.*
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
@@ -112,10 +108,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-Project Link: [https://github.com/your-username/semi-final](https://github.com/your-username/semi-final)
+Project Link: [https://github.com/a-adelrady/semi-final](https://github.com/a-adelrady/semi-final)
